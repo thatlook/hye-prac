@@ -4,6 +4,7 @@ import Example1 from './pages/Example1'
 import Example2 from './pages/Example2'
 import Home from './pages/Home'
 import AppBar from './components/AppBar'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/example-1" element={<Example1 />} />
           <Route path="/example-2" element={<Example2 />} />
         </Routes>
+      <Footer />
     </Router>
   );
 }
